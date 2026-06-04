@@ -106,9 +106,90 @@ This is how neural networks can learn to:
 | V3      | Added everyday example and summary                    | More engaging                                         |
 | Final   | Added story, learning process, and clear instructions | Simple, relatable, and easy for a child to understand |
 
-
-
 ### 1.1 Scenario B: Professional Email
+
+#### Goal
+
+Draft an email declining a job offer politely while expressing continued interest in the company.
+
+---
+
+#### Initial Prompt (Version 1)
+
+**Prompt:**
+
+Write an email declining a job offer.
+
+##### Output Evaluation
+
+The email declined the offer, but it was too short and direct. It did not express gratitude or maintain a positive relationship with the company.
+
+---
+
+#### Refined Prompt (Version 2)
+
+**Prompt:**
+
+Write a professional email declining a job offer. Thank the company for the opportunity and be polite.
+
+##### Output Evaluation
+
+The email was more professional and included appreciation. However, it did not explain that the candidate would like to stay connected with the company for future opportunities.
+
+---
+
+#### Refined Prompt (Version 3)
+
+**Prompt:**
+
+Write a professional email declining a job offer. Thank the hiring team for their time and effort. Politely decline the offer because another opportunity was accepted. Express interest in staying connected and working with the company in the future.
+
+##### Output Evaluation
+
+The email was professional and polite. However, adding a clear subject line and a warmer closing would make it more effective.
+
+---
+
+#### Final Prompt
+
+**Prompt:**
+
+Write a professional and polite email declining a job offer after accepting another opportunity. Thank the hiring manager and interview team for their time and consideration. Clearly but respectfully decline the offer. Express genuine interest in the company and mention that you would welcome future opportunities to work together. Use a professional tone and keep the email concise.
+
+---
+
+#### Final LLM Response
+
+**Subject:** Thank You for the Job Offer
+
+Dear Hiring Manager,
+
+Thank you very much for offering me the position at your company. I sincerely appreciate the time and effort that you and the interview team invested throughout the recruitment process.
+
+After careful consideration, I have decided to accept another opportunity that is more aligned with my current career goals. Therefore, I must respectfully decline your offer.
+
+This was not an easy decision, as I was impressed by the company, the team, and the exciting work being done. I truly appreciate the opportunity to learn more about your organisation during the interview process.
+
+I hope to stay in touch and would welcome the opportunity to work together in the future if circumstances align.
+
+Thank you once again for your understanding, and I wish you and the team continued success.
+
+Kind regards,
+
+[Your Name]
+
+---
+
+#### Reflection on Prompt Iteration
+
+| Version | Improvement Made                                              | Result                               |
+| ------- | ------------------------------------------------------------- | ------------------------------------ |
+| V1      | Basic request                                                 | Too short and lacked professionalism |
+| V2      | Added gratitude and polite tone                               | More professional                    |
+| V3      | Added reason and future interest                              | Better relationship management       |
+| Final   | Added clear structure, subject line, and professional closing | Polished and workplace-ready email   |
+
+
 ### 1.1 Scenario C: Creative Content
 ### 1.2 Iteration Documentation
 ### 1.3 Role and Context Analysis
