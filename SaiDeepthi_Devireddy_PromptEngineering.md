@@ -191,6 +191,89 @@ Kind regards,
 
 
 ### 1.1 Scenario C: Creative Content
+#### Goal
+
+Generate a creative marketing tagline for a new eco-friendly water bottle brand.
+
+---
+
+#### Initial Prompt (Version 1)
+
+**Prompt:**
+
+Create a marketing tagline for an eco-friendly water bottle brand.
+
+##### Output Evaluation
+
+The tagline highlighted sustainability but was very generic. It did not create a strong brand identity or emotional connection with customers.
+
+---
+
+#### Refined Prompt (Version 2)
+
+**Prompt:**
+
+Create five creative marketing taglines for an eco-friendly water bottle brand. Focus on sustainability, reducing plastic waste, and staying hydrated.
+
+##### Output Evaluation
+
+The taglines were more creative and relevant to the product. However, they sounded similar to existing environmental slogans and were not very memorable.
+
+---
+
+#### Refined Prompt (Version 3)
+
+**Prompt:**
+
+Create five short and memorable marketing taglines for a modern eco-friendly water bottle brand. The taglines should be catchy, positive, and inspire people to make environmentally responsible choices. Use simple language and a modern marketing style.
+
+##### Output Evaluation
+
+The taglines became more engaging and memorable. However, adding information about the target audience and brand personality could make the results even stronger.
+
+---
+
+#### Final Prompt
+
+**Prompt:**
+
+Generate ten creative marketing taglines for a new eco-friendly water bottle brand aimed at young professionals and students. The brand should feel modern, sustainable, and stylish. The taglines should be short, memorable, positive, and encourage reducing plastic waste while staying hydrated.
+
+---
+
+#### Final LLM Response
+
+##### Eco-Friendly Water Bottle Taglines
+
+1. Sip Smart. Live Green.
+2. Every Refill Makes a Difference.
+3. Drink Water, Not Plastic.
+4. Stay Hydrated. Save the Planet.
+5. Refill Today. Protect Tomorrow.
+6. Carry Water. Carry Change.
+7. One Bottle. Thousands of Plastic Bottles Saved.
+8. Refresh Yourself. Respect Nature.
+9. Sustainable Style in Every Sip.
+10. Good for You. Better for Earth.
+
+##### Selected Final Tagline
+
+**"Sip Smart. Live Green."**
+
+This tagline is short, easy to remember, and clearly connects personal choices with environmental responsibility.
+
+---
+
+#### Reflection on Prompt Iteration
+
+| Version | Improvement Made                                               | Result                                     |
+| ------- | -------------------------------------------------------------- | ------------------------------------------ |
+| V1      | Basic request                                                  | Generic and less memorable                 |
+| V2      | Added multiple options and sustainability focus                | More creative ideas                        |
+| V3      | Added tone, style, and audience appeal                         | Catchier taglines                          |
+| Final   | Added target audience, brand personality, and clear objectives | Strong, marketable, and memorable taglines |
+
+
 ### 1.2 Iteration Documentation
 ### 1.3 Role and Context Analysis
 
