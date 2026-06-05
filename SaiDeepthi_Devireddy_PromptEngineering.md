@@ -1,5 +1,5 @@
 # Prompt Engineering Portfolio
-Name: Sai DeepthiDevireddy
+Name: Sai Deepthi Devireddy
 Date: 06-06-2026
 LLM Used: ChatGPT (GPT-5.5)
 
@@ -503,13 +503,13 @@ Total employees after hiring:
 
 150 + 21.75 = 171.75
 
-Final Answer: 171.75 employees
+Final Answer: Approximately 172 employees
 
 ---
 
 #### Comparison and Analysis
 
-The output without chain-of-thought provided only the final answer and did not explain how it was calculated. The chain-of-thought version broke the problem into smaller steps, making the reasoning process easier to understand and verify.
+The output without chain-of-thought provided only the final answer and did not explain how it was calculated. The chain-of-thought prompt not only showed the calculation steps but also made it easier to identify that the final value should be rounded to a whole employee count. This demonstrates how step-by-step reasoning can improve clarity and reduce calculation mistakes.
 
 Chain-of-thought prompting helps with complex reasoning because it encourages the model to perform calculations in a logical sequence instead of jumping directly to the answer. This reduces the chance of mistakes and makes the solution more transparent.
 
@@ -536,7 +536,7 @@ Classify each customer review as Positive, Negative, or Neutral based on the sen
 | "The product arrived damaged and customer service was unhelpful." | Negative       |
 | "Works as expected, nothing special but does the job."            | Neutral        |
 | "Absolutely love this! Best purchase I've made all year!"         | Positive       |
-| "The quality is okay but slightly overpriced for what you get."   | Neutral        |
+| "The quality is okay but slightly overpriced for what you get."   | Negative       |
 | "Terrible experience, would not recommend to anyone."             | Negative       |
 
 ---
@@ -580,15 +580,14 @@ Now classify the following reviews.
 | 1        | Negative         | Negative        | Negative      | No        |
 | 2        | Neutral          | Neutral         | Neutral       | No        |
 | 3        | Positive         | Positive        | Positive      | No        |
-| 4        | Neutral          | Neutral         | Neutral       | No        |
+| 4        | Negative         | Neutral         | Neutral       | Yes       |
 | 5        | Negative         | Negative        | Negative      | No        |
 
 ---
 
 #### Discussion
 
-In this example, both the zero-shot and few-shot prompts produced the correct classifications because the reviews were clear and easy to interpret. However, few-shot prompting is most useful when tasks are more complex, ambiguous, or require a specific output format. By providing examples, the model better understands the expected behaviour and can produce more consistent and accurate results.
-
+The few-shot prompt improved classification accuracy for Review #4. The examples helped the model distinguish between mildly negative opinions and truly neutral reviews. This shows how few-shot prompting can improve consistency and accuracy when sentiment is ambiguous.
 
 ## Part 4: Responsible AI & Limitations
 ### 4.1 Testing for Hallucinations
